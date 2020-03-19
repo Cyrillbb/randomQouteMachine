@@ -1,0 +1,43 @@
+body{
+  background-color: gray;
+  background-image: url(http://getwallpapers.com/wallpaper/full/0/2/c/319189.jpg);
+  font-size: larger;
+  font-family: 'Lato', sans-serif;
+  
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: darkseagreen;
+  /*border: green solid 2px;*/
+  border-radius: 2em;
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10em;
+  opacity: .9;
+  
+}
+.fDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.5s all;
+}
+.quote {
+  /*border: green solid 2px;*/
+  /*max-width: 60%;*/
+  margin: 10px;
+  
+}
+.author {  
+  /*border: green solid 2px;*/
+  margin: 10px;  
+}
+.button {
+  margin: 10px;
+  font-size: large;
+  border-radius: 2em;
+}
